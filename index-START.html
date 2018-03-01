@@ -70,7 +70,7 @@
 }
   function removeTransition(e) {
       if (e.propertyName !== 'transform') return; //don´t do it if it´s not transform
-      this.classlist.remove('playing');
+      this.classList.remove('playing');
 
   }
   const keys = Array.from(document.querySelectorAll(`.key`));
